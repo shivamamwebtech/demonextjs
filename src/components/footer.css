@@ -1,0 +1,55 @@
+footer > div {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 0;
+  margin-top: 5rem;
+  background-color: var(--footer);
+}
+.footer__logo__cantainer {
+  width: 100px;
+  height: 100px;
+}
+
+.footer__about__cantainer {
+  margin-top: 2rem;
+  font-size: 18px;
+  color: #fff;
+}
+footer > div > div:first-child {
+  flex-basis: 400px;
+}
+
+footer .footer__heading {
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: var(--primary);
+}
+footer .footer__heading {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+footer .footer__menu {
+  margin-top: 10px;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+footer .footer__menu li {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: var(--primary_light);
+  padding: 6px;
+  padding-left: 0;
+}
+footer .footer__menu a {
+  text-decoration: none;
+}
